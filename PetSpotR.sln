@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6DDEAD74-8C2A-4BC8-87B4-4A0785386197}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{97B30D00-4A62-45D7-96E2-D840EDA2599B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetSpotR", "src\frontend\PetSpotR\PetSpotR.csproj", "{08AAA57C-D0B8-4243-B35F-554CB1DB6983}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08AAA57C-D0B8-4243-B35F-554CB1DB6983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08AAA57C-D0B8-4243-B35F-554CB1DB6983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08AAA57C-D0B8-4243-B35F-554CB1DB6983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08AAA57C-D0B8-4243-B35F-554CB1DB6983}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{97B30D00-4A62-45D7-96E2-D840EDA2599B} = {6DDEAD74-8C2A-4BC8-87B4-4A0785386197}
+		{08AAA57C-D0B8-4243-B35F-554CB1DB6983} = {97B30D00-4A62-45D7-96E2-D840EDA2599B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C10A3EF-ABC9-443C-AD03-C5CC6B9DBDD3}
+	EndGlobalSection
+EndGlobal
